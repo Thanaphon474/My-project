@@ -1,0 +1,80 @@
+body {
+    font-family: 'Lao MN', 'Phetsarath OT', sans-serif;
+    background-image: url(/images\ \(1\).jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.contact-container {
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 40px;
+    max-width: 900px;
+    width: 95%;
+}
+
+.contact-info h2 {
+    color: #4a7c59;
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    color: #666;
+    line-height: 1.6;
+}
+
+.details .item {
+    margin-top: 15px;
+    font-size: 0.95rem;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+    font-weight: bold;
+}
+
+.input-group input, .input-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background: #fafafa;
+    outline: none;
+    transition: 0.3s;
+}
+
+.input-group input:focus, .input-group textarea:focus {
+    border-color: #a8dadc;
+    background: #fff;
+}
+
+button {
+    background-color: #8ecae6; /* ສີຟ້າ Pastel */
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #219ebc;
+}
