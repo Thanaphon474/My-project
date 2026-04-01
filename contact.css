@@ -1,7 +1,9 @@
 body {
     font-family: 'Lao MN', 'Phetsarath OT', sans-serif;
-    background-image: url(/images\ \(1\).jpg);
+    background-image: url(/22032018_nc_151.jpg);
+    background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: scroll;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,31 +11,37 @@ body {
     margin: 0;
 }
 
-.contact-container {
-    background: #ffffff;
+.contact-container { 
+    background-color: rgba(42, 54, 54, 0.3);
+    backdrop-filter: blur(5px);
     padding: 40px;
     border-radius: 20px;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
     display: grid;
-    grid-template-columns: 1fr 1.5fr;
+    grid-template-columns: 1fr 1fr;
     gap: 40px;
+    width: 900px;
     max-width: 900px;
-    width: 95%;
+
 }
 
 .contact-info h2 {
-    color: #4a7c59;
+    color: #000000;
     margin-bottom: 20px;
 }
 
 .contact-info p {
-    color: #666;
+    color: #000000;
     line-height: 1.6;
 }
 
-.details .item {
+.details {
     margin-top: 15px;
-    font-size: 0.95rem;
+    font-size: 15px;
+}
+
+.item {
+    margin-top: 15px;
+    font-size: 15px;
 }
 
 .contact-form {
@@ -44,14 +52,14 @@ body {
 
 .input-group label {
     display: block;
-    margin-bottom: 8px;
     color: #333;
     font-weight: bold;
 }
 
-.input-group input, .input-group textarea {
+.input-group input {
     width: 100%;
     padding: 12px;
+    margin:5px;
     border: 1px solid #ddd;
     border-radius: 10px;
     background: #fafafa;
@@ -59,13 +67,19 @@ body {
     transition: 0.3s;
 }
 
-.input-group input:focus, .input-group textarea:focus {
-    border-color: #a8dadc;
-    background: #fff;
+.input-group textarea {
+    width: 100%;
+    padding: 12px;
+    margin:5px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background: #fafafa;
+    outline: none;
+    transition: 0.3s;
 }
 
 button {
-    background-color: #8ecae6; /* ສີຟ້າ Pastel */
+    background-color: #001aff; 
     color: white;
     padding: 12px;
     border: none;
@@ -76,5 +90,5 @@ button {
 }
 
 button:hover {
-    background-color: #219ebc;
+    background-color: #2d3b87;
 }
