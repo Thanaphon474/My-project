@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+  background: url("https://cdn.realisticasia.com/photos/blog/Cities/Pakse_embedded_image_0.jpeg") no-repeat center/cover;
+  color: white;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  /*background-color: black;*/
+}
+
+.logo {
+  font-size: 28px;
+  color: rgb(255, 0, 0);
+  font-weight: bold;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: white;
+}
+
+.search input {
+  padding: 5px;
+}
+
+.search button {
+  background: rgb(222, 18, 93);
+  border: none;
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+/* Content */
+.content {
+  width: 50%;
+  padding: 80px 50px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.content h3 {
+  font-size: 50px;
+  color: rgb(3, 255, 41);
+}
+
+.text1 {
+  color: rgb(255, 255, 255);
+}
+
+.content p {
+  margin: 20px 0;
+  line-height: 1.6;
+  color: rgb(255, 255, 255);
+
+.text2 {
+  color: black;
+}
+
+.text3 {
+  color: black;
+}
+  
+}
+
+.join {
+  background: rgb(222, 18, 93);
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+  
+
+
+}
+
