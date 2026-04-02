@@ -1,6 +1,6 @@
 body {
     font-family: 'Lao MN', 'Phetsarath OT', sans-serif;
-    background-image: url(/22032018_nc_151.jpg);
+    background-image: url(/My-project/22032018_nc_151.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: scroll;
@@ -9,6 +9,8 @@ body {
     align-items: center;
     min-height: 100vh;
     margin: 0;
+    padding: 0%;
+    width: 100%;
 }
 
 .contact-container { 
